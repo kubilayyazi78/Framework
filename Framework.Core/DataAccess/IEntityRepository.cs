@@ -11,8 +11,8 @@ namespace Framework.Core.DataAccess
 {
     public interface IEntityRepository<T> where T:class,IEntity,new()
     {
-        List<T> GetList(Expression<Func<T,bool>> File=null);
-        T Get(Expression<Func<T, bool>> File = null);
+        List<T> GetList(Expression<Func<T,bool>> filter=null);
+        T Get(Expression<Func<T, bool>> filter = null);
         T Add(T entity);
         T Update(T entity);
         void Delete(T entity);
