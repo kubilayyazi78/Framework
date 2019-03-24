@@ -1,5 +1,6 @@
 ﻿using Framework.Core.DataAccess.NHibabernate;
 using Framework.Northwind.DataAccess.Abstract;
+using Framework.Northwind.Entites.ComplexTypes;
 using Framework.Northwind.Entites.Concrete;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,11 @@ namespace Framework.Northwind.DataAccess.Concrete.NHibernate
         public NhProductDal(NHibernateHelper nHibernateHelper) : base(nHibernateHelper)
         {
 
+        }
+
+        public List<ProductDetail> GetProductDetails()
+        {
+            throw new NotImplementedException();
         }
     }
 }
