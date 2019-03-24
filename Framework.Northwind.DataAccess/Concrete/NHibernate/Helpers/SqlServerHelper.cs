@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Framework.Northwind.DataAccess.NHibernate.Helpers
+namespace Framework.Northwind.DataAccess.Concrete.NHibernate.Helpers
 {
     public class SqlServerHelper : NHibernateHelper
     {

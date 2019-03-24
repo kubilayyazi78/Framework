@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Framework.Northwind.DataAccess.NHibernate.Mappings
+namespace Framework.Northwind.DataAccess.Concrete.NHibernate.Mappings
 {
   public  class ProductMap:ClassMap<Product>
     {
