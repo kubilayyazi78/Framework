@@ -75,6 +75,7 @@
     <Compile Include="Concrete\EntityFramework\Mappings\ProductMap.cs" />
     <Compile Include="Concrete\EntityFramework\NorthwindContext.cs" />
     <Compile Include="NHibernate\Helpers\SqlServerHelper.cs" />
+    <Compile Include="NHibernate\Mappings\ProductMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
